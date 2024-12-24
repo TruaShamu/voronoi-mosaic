@@ -16,3 +16,12 @@ e2. a trivial way to optimize is to chunk pixels together (so a nxn pixel image 
 e3. look into better ways of finding the voronoi diagram (i.e. fortunes, lloyds)
 
 e4. look into hausner's paper on mosaic tiling
+
+
+#results (as of 12/24)
+
+| Input    | Output (3000 seeds)* |
+| -------- | ------- |
+| ![image](https://github.com/user-attachments/assets/79113eba-3e28-4853-908a-0e3b4b505c9e)| ![output](https://github.com/user-attachments/assets/ff3293e1-f39e-40f5-82e7-c843d0ed4ca6)|
+Takes ~20s for a 512x512 image using 3000 seeds, ~7s for 1000 seeds, ...
+
