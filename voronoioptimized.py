@@ -80,10 +80,9 @@ def process_chunk(args):
     distances = np.sum((chunk[..., np.newaxis, :] - seeds) ** 2, axis=-1)
     return np.argmin(distances, axis=-1)
 if __name__ == '__main__':
-    freeze_support()
     time_init = time.time()
     image = cv2.imread('lena.png')
     voronoi_mosaic = VoronoiMosaic(image)
-    output_image = voronoi_mosaic.generate_mosaic(3000)
+    output_image = voronoi_mosaic.generate_mosaic(1000)
     cv2.imwrite('output.jpg', output_image)
     print("Time taken: ", time.time() - time_init)
