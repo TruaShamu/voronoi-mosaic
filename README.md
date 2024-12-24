@@ -7,6 +7,7 @@
 4. recolor each region with the representative color.
 
 extra items:
+
 e1. run edge detection on the input image using adaptive thresholding and 'paint' the edges back onto the mosaic to give better form or shape to the main subjects of the image.
 (there's probably some other visual saliency things we could do too)
 
