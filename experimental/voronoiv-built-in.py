@@ -61,10 +61,12 @@ if __name__ == '__main__':
 
     # Load input image
     image = cv2.imread('lena.png')
+    #image = cv2.resize(image, (0, 0), fx=0.3, fy=0.3)
+    #print(image.shape)
 
     # Create VoronoiMosaic instance and generate mosaic
     voronoi_mosaic = VoronoiMosaic(image)
-    output_image = voronoi_mosaic.generate_mosaic(10000)
+    output_image = voronoi_mosaic.generate_mosaic(3000)
 
     # Save output image
     cv2.imwrite('output.jpg', output_image)

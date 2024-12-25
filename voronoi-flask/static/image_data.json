@@ -1,0 +1,24 @@
+[
+    {
+      "name": "Image 1",
+      "description": "This is the first example image for the Voronoi mosaic.",
+      "filename": "lena.jpg"
+    },
+    {
+      "name": "Image 3",
+      "description": "This is the third example image for the Voronoi mosaic.",
+      "filename": "butterflydone.png"
+    },
+    {
+      "name": "Image 4",
+      "description": "This is the third example image for the Voronoi mosaic.",
+      "filename": "husky.png"
+    },
+    {
+      "name": "Image 6",
+      "description": "This is the third example image for the Voronoi mosaic.",
+      "filename": "garden.png"
+    }
+
+  ]
+  

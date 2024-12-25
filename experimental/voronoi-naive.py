@@ -83,6 +83,6 @@ if __name__ == '__main__':
     time_init = time.time()
     image = cv2.imread('lena.png')
     voronoi_mosaic = VoronoiMosaic(image)
-    output_image = voronoi_mosaic.generate_mosaic(1000)
+    output_image = voronoi_mosaic.generate_mosaic(10000)
     cv2.imwrite('output.jpg', output_image)
     print("Time taken: ", time.time() - time_init)
